@@ -10,14 +10,20 @@ function hello() {
 }
 // Call the function to test
 console.log('Test - should say "Hello World!"', hello());
+hello();
+
 
 
 // 2. Function to return an personalized hello, using the `name` argument.
 //    for example 'Hello, Jo!', or 'Hello, Stacy!'
 function helloName( name ) {
-  return;
+  console.log( 'Hello,' + ' ' + name);
+  return; 
 }
 // Remember to call the function to test
+helloName('Jo!');
+helloName('Stacy!')
+
 
 
 // 3. Function to add two numbers together & return the result
@@ -87,3 +93,39 @@ function sumAll( ) {
 // 11. Pick a problem from Edabit(https://edabit.com/) or 
 //     CodeWars(https://www.codewars.com/). Then describe it 
 //     here in a comment, write the function, and test it!
+
+// function actualMath( num0, num1){
+//   console.log( ' in actualMath', num0, num1 );
+//   let answer = num0 * num1;
+//   return answer;
+// }//end actualMath
+
+// function logger (){
+//   console.log( 'in logger' );
+// }// end logger
+
+// //math example
+// function mathEx(){
+//   console.log ( 'in mathEx');
+//   let answer = 3 * 9;
+//   return answer;
+// }
+
+// function returner (){
+//   console.log( 'in returner' );
+//   return true;
+// }//returner
+
+// logger(); // call
+// returner(); //call
+// console.log('running returner', returner() );
+// console.log( 'running math example:', mathEx());
+// console.log( 'running actualMath with 4 & 6:', actualMath( 4, 6 ) );
+// console.log( 'running actualMath with 0.123 & 654:', actualMath( 0.123, 654 ));
+// console.log( 'running actualMath with 1 & 2:', actualMath( 1, 2 ) );
+// console.log( 'running actuaMath with 327 & 81.3:', actualMath( 327, 81.3 ) );
+
+// function helloP(){
+//   console.log('hellop');
+// }
+// helloP();
