@@ -27,30 +27,43 @@ helloName('Stacy!')
 
 
 // 3. Function to add two numbers together & return the result
-function addNumbers( firstNumber ) {
-  // return firstNumber + secondNumber;
+function addNumbers( firstNumber, secondNumber) {
+  console.log( ' adding firstNumber & secondNumber');
+// return firstNumber + secondNumber;
+  return firstNumber + secondNumber; 
 }
+
+console.log( 'sum of numbers:', addNumbers (10, 50) );
 
 
 // 4. Function to multiply three numbers & return the result
-function multiplyThree( ){
-
+function multiply( num1, num2, num3){
+  console.log( 'multiplying' , num1, num2, num3 );
+  return num1 * num2 * num3;
+  
 }
+console.log( 'product = ', multiply( 3, 6, 9) );
 
 
 // 5. Function that will return true if a number is positive, 
 //    or greater than zero, and false otherwise
 function isPositive( number ) {
   if ( number > 0 ){
-    return;
-  }
-    return;
+    return true;
+  } else{
+    number % 2;
+    };
+    return false;
 }
 // Call the function to test each outcome (true & false) 
 // Write a separate console.log statement for each outcome
 console.log( 'isPositive - should say true', isPositive(3) );
 console.log( 'isPositive - should say false', isPositive(0) );
 console.log( 'isPositive - should say false', isPositive(-3) );
+
+console.log(isPositive (3));
+console.log (isPositive(0));
+console.log(isPositive(-3));
 
 
 // 6. Function to return the _last_ item in an array. If the 
@@ -94,11 +107,11 @@ function sumAll( ) {
 //     CodeWars(https://www.codewars.com/). Then describe it 
 //     here in a comment, write the function, and test it!
 
-// function actualMath( num0, num1){
-//   console.log( ' in actualMath', num0, num1 );
-//   let answer = num0 * num1;
-//   return answer;
-// }//end actualMath
+function actualMath( num0, num1){
+  console.log( ' in actualMath', num0, num1 );
+  let answer = num0 * num1;
+  return answer;
+}//end actualMath
 
 // function logger (){
 //   console.log( 'in logger' );
@@ -120,10 +133,10 @@ function sumAll( ) {
 // returner(); //call
 // console.log('running returner', returner() );
 // console.log( 'running math example:', mathEx());
-// console.log( 'running actualMath with 4 & 6:', actualMath( 4, 6 ) );
-// console.log( 'running actualMath with 0.123 & 654:', actualMath( 0.123, 654 ));
-// console.log( 'running actualMath with 1 & 2:', actualMath( 1, 2 ) );
-// console.log( 'running actuaMath with 327 & 81.3:', actualMath( 327, 81.3 ) );
+console.log( 'running actualMath with 4 & 6:', actualMath( 4, 6 ) );
+console.log( 'running actualMath with 0.123 & 654:', actualMath( 0.123, 654 ));
+console.log( 'running actualMath with 1 & 2:', actualMath( 1, 2 ) );
+console.log( 'running actuaMath with 327 & 81.3:', actualMath( 327, 81.3 ) );
 
 // function helloP(){
 //   console.log('hellop');
