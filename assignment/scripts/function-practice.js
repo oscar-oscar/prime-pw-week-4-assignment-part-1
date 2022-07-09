@@ -49,12 +49,14 @@ console.log( 'product = ', multiply( 3, 6, 9) );
 //    or greater than zero, and false otherwise
 function isPositive( number ) {
   if ( number > 0 ){
+    //positive will return true
     return true;
-  } else{
-    number % 2;
-    };
-    return false;
+  } 
+  // } else{
+  //   number % 2; // unnecessary since anything not positive will be false
+     return false;
 }
+
 // Call the function to test each outcome (true & false) 
 // Write a separate console.log statement for each outcome
 console.log( 'isPositive - should say true', isPositive(3) );
