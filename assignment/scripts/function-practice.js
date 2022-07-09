@@ -94,9 +94,13 @@ console.log(getLast([1, 5, 11]));
 //    value is found and false otherwise. Use a loop;
 //    DO NOT use Array.includes, Array.indexOf, or Array.find 
 function find( value, array ){
-  
+  console.log ( 'in find', value, array)
+
 
 }
+
+
+// console.log(find([2, 5, 1, 2]));
 
 // ----------------------
 // Stretch Goals
